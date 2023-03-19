@@ -1,0 +1,22 @@
+version: '3'
+services:
+  container1:
+    image: burger
+    ports:
+      - "8080:6000"
+  container2:
+    image: burger
+    ports:
+      - "8081:6000"
+  container3:
+    image: burger
+    ports:
+      - "8082:6000"
+  container4:
+    image: burger
+    ports:
+      - "8083:6000"
+  container5:
+    image: burger
+    ports:
+      - "8084:6000"
